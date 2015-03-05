@@ -129,6 +129,7 @@ void getFrameInfo(CFURLRef url, NSMutableArray *frames, NSMutableArray *delayTim
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
     self.layer.contents = nil;
+    NSLog(@"ad");
 }
 
 // Only override drawRect: if you perform custom drawing.
